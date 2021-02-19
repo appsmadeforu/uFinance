@@ -1,0 +1,62 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @babel/preset-env @babel/preset-react --save-dev
+
+PATH: 
+  C:\Users\SnRao\Desktop\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\SnRao\Desktop\codehub\django_react\venv\Scripts;C:\Users\SnRao\Desktop\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\SnRao\Desktop\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\SnRao\Desktop\cmder\bin;C:\Users\SnRao\Desktop\cmder\vendor\bin;C:\Users\SnRao\Desktop\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\SnRao\Desktop\cmder\vendor\conemu-maximus5;C:\Users\SnRao\Desktop\cmder\vendor\conemu-maximus5\ConEmu;C:\Python39\Scripts\;C:\Python39\;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Webex\Webex\Applications;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files (x86)\Yarn\bin\;C:\Users\SnRao\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Git\cmd;C:\Program Files (x86)\Sennheiser\SenncomSDK\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\Users\SnRao\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\SnRao\AppData\Local\Programs\Python\Python37\;C:\Users\SnRao\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.5\bin;C:\Program Files\heroku\bin;C:\Program Files (x86)\Android\android-sdk;C:\Users\SnRao\AppData\Local\Yarn\bin;C:\Users\SnRao\AppData\Local\Android\Sdk\platform-tools;C:\Users\SnRao\AppData\Roaming\npm;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\SnRao\Desktop\cmder
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.15.5
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\SnRao\Desktop\codehub\django_react\mcred\uFinance\package.json: Unexpected token / in JSON at position 378
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "uFinance",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "webpack-dev-server",
+      "build": "webpack -p --progress --config webpack.config.js",
+      "dev-build": "webpack --progress -d --config webpack.config.js",
+      "dev": "webpack --mode development --entry ./src/index.js --output-path  ./static/ufinance/main.js",
+  //    "build": "webpack --mode production --entry ./src/index.js --output-path ./static/ufinance/main.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@babel/core": "^7.12.17",
+      "@babel/preset-env": "^7.12.17",
+      "@babel/preset-react": "^7.12.13",
+      "babel-loader": "^8.2.2",
+      "babel-preset-es2015": "^6.24.1",
+      "clean-webpack-plugin": "^3.0.0",
+      "css-loader": "^5.0.2",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "style-loader": "^2.0.0",
+      "webpack": "^5.23.0",
+      "webpack-bundle-tracker": "^0.4.3",
+      "webpack-cli": "^4.5.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
